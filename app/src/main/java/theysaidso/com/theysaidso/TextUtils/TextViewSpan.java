@@ -18,12 +18,12 @@ public class TextViewSpan {
         textview.setText("");
         textview.append(string);
 
-        Spannable spannableText = (Spannable) textview.getText();
+        /*Spannable spannableText = (Spannable) textview.getText();
         spannableText.setSpan(new ForegroundColorSpan(Color.BLACK), 0, string.length(), 0);
 
         spannableText.setSpan(new BackgroundColorSpan(Color.YELLOW), 0, string.length(),
                 Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        //CusOGLL cusOGLL = new CusOGLL(textview);
+        //CusOGLL cusOGLL = new CusOGLL(textview);*/
         //textview.getViewTreeObserver().addOnGlobalLayoutListener(cusOGLL);
     }
         static class CusOGLL implements ViewTreeObserver.OnGlobalLayoutListener {
